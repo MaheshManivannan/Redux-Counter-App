@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+section {
+  max-width: 400px;
+  margin: 50px auto; /* Centers the section on the page */
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background */
+  text-align: center; /* Center-aligns the content */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds shadow for better look */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 3rem; /* Large font for the count */
+  margin-bottom: 20px;
+  color: #333; /* Darker text color */
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff; /* Primary blue color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:active {
+  background-color: #003d80; /* Even darker when clicked */
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center; /* Centers the text in the input */
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
